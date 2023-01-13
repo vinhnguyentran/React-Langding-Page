@@ -3,7 +3,7 @@ import styled from "styled-components";
 // Components
 import FullButton from "../Buttons/FullButton";
 // Assets
-import HeaderImage from "../../assets/img/header-img.png";
+import HeaderImage from "../../assets/img/header-img.jpg";
 import QuotesIcon from "../../assets/svg/Quotes";
 import Dots from "../../assets/svg/Dots";
 import Carousel1 from "../Carousel/Carousel1";
@@ -12,21 +12,18 @@ export default function Header() {
   return (
     <>
       <div className="container flexSpaceCenter">
-        <Carousel1 />
+        {/* <Carousel1 /> */}
       </div>
 
       <Wrapper id="home" className="container flexSpaceCenter">
         <LeftSide className="flexCenter">
           <div>
-            <h1 className="extraBold font60">We are Digital Agency.</h1>
+            <h1 className="extraBold font60">I'm Vinh</h1>
             <HeaderP className="font13 semiBold">
-              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-              nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
-              erat, sed diam voluptua. At vero eos et accusam et justo duo
-              dolores et ea rebum.
+              Some think
             </HeaderP>
             <BtnWrapper>
-              <FullButton title="Get Started" />
+              <FullButton title="About Me" />
             </BtnWrapper>
           </div>
         </LeftSide>
@@ -45,15 +42,14 @@ export default function Header() {
               <div>
                 <p className="font15 whiteColor">
                   <em>
-                    Friends, such as we desire, are dreams and fables.
-                    Friendship demands the ability to do without it.
+                  No experience is the cause of success or failure. We don't suffer from the shock of experience, or so-called emotional trauma - we look to experience just what is right for our purposes.
                   </em>
                 </p>
                 <p
                   className="font13 orangeColor textRight"
                   style={{ marginTop: "10px" }}
                 >
-                  Ralph Waldo Emerson
+                  Alfred Adler
                 </p>
               </div>
             </QuoteWrapper>

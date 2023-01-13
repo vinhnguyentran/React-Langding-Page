@@ -3,13 +3,22 @@ import styled from "styled-components";
 
 export default function ProjectBox({ img, title, text, action}) {
   return (
-    <Wrapper>
-      <ImgBtn className="aniamte pointer" onClick={action ? () => action() : null}>
+    // <Wrapper>
+    //   <ImgBtn className="aniamte pointer" onClick={action ? () => action() : null}>
+    //     <img className="radius8" src={img} alt="project"></img>
+    //   </ImgBtn>
+    //   <h3 className="font20 extraBold">{title}</h3>
+    //   <p className="font13">{text}</p>
+    // </Wrapper>
+    <a href={action}>
+      <Wrapper>
+      <ImgBtn className="aniamte pointer">
         <img className="radius8" src={img} alt="project"></img>
       </ImgBtn>
       <h3 className="font20 extraBold">{title}</h3>
       <p className="font13">{text}</p>
     </Wrapper>
+    </a>
   );
 }
 
