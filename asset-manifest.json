@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/git@github.com:vinhnguyentran/React-Langding-Page.git/static/css/main.b6af47f9.css",
+    "main.js": "/git@github.com:vinhnguyentran/React-Langding-Page.git/static/js/main.7b7e8cce.js",
+    "static/js/787.fec03637.chunk.js": "/git@github.com:vinhnguyentran/React-Langding-Page.git/static/js/787.fec03637.chunk.js",
+    "static/media/banca.png": "/git@github.com:vinhnguyentran/React-Langding-Page.git/static/media/banca.69a32ba228e0f9c18207.png",
+    "static/media/webapp.png": "/git@github.com:vinhnguyentran/React-Langding-Page.git/static/media/webapp.4940fb4457b81f931c14.png",
+    "static/media/halana.png": "/git@github.com:vinhnguyentran/React-Langding-Page.git/static/media/halana.dca230170e12b26de313.png",
+    "static/media/edumall.png": "/git@github.com:vinhnguyentran/React-Langding-Page.git/static/media/edumall.535c08f980c1b0aa4b40.png",
+    "static/media/topica-native.png": "/git@github.com:vinhnguyentran/React-Langding-Page.git/static/media/topica-native.9f3458ed44869ae7b663.png",
+    "static/media/logoEducation.webp": "/git@github.com:vinhnguyentran/React-Langding-Page.git/static/media/logoEducation.2e3ecd774675e6887e41.webp",
+    "static/media/header-img.jpg": "/git@github.com:vinhnguyentran/React-Langding-Page.git/static/media/header-img.e397ba11b5a16c111463.jpg",
+    "static/media/logo02.svg": "/git@github.com:vinhnguyentran/React-Langding-Page.git/static/media/logo02.ce7f8ffb84ffe32e2e5df968e4dec8c7.svg",
+    "static/media/logo01.svg": "/git@github.com:vinhnguyentran/React-Langding-Page.git/static/media/logo01.b3edf4b9b1a2d662d8f383498b18c9c8.svg",
+    "static/media/logo03.svg": "/git@github.com:vinhnguyentran/React-Langding-Page.git/static/media/logo03.db1a15c4511e7f9593dacc44cccfb284.svg",
+    "static/media/logo06.svg": "/git@github.com:vinhnguyentran/React-Langding-Page.git/static/media/logo06.94de1f70a559c74f39e920f35dcfcfdd.svg",
+    "static/media/logo05.svg": "/git@github.com:vinhnguyentran/React-Langding-Page.git/static/media/logo05.c0d397a579acb74c032ba06be3a5f534.svg",
+    "static/media/logo04.svg": "/git@github.com:vinhnguyentran/React-Langding-Page.git/static/media/logo04.6dc1762688427a605845ff171593f533.svg",
+    "static/media/slick.svg": "/git@github.com:vinhnguyentran/React-Langding-Page.git/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/git@github.com:vinhnguyentran/React-Langding-Page.git/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/git@github.com:vinhnguyentran/React-Langding-Page.git/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/git@github.com:vinhnguyentran/React-Langding-Page.git/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/git@github.com:vinhnguyentran/React-Langding-Page.git/index.html",
+    "main.b6af47f9.css.map": "/git@github.com:vinhnguyentran/React-Langding-Page.git/static/css/main.b6af47f9.css.map",
+    "main.7b7e8cce.js.map": "/git@github.com:vinhnguyentran/React-Langding-Page.git/static/js/main.7b7e8cce.js.map",
+    "787.fec03637.chunk.js.map": "/git@github.com:vinhnguyentran/React-Langding-Page.git/static/js/787.fec03637.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b6af47f9.css",
+    "static/js/main.7b7e8cce.js"
+  ]
+}
