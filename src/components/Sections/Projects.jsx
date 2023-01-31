@@ -23,7 +23,7 @@ import AddImage2 from "../../assets/img/add/add2.png";
 
 export default function Projects() {
   return (
-    <Wrapper id="projects">
+    <Wrapper id="project">
       <div className="whiteBg">
         <div className="container">
           <HeaderInfo>

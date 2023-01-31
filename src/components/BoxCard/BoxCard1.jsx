@@ -41,12 +41,12 @@ const BoxCard = ({ sidebarOpen, toggleSidebar }) => {
             activeClass="active"
             className="whiteColor"
             style={{ padding: "10px 15px" }}
-            to="services"
+            to="about"
             spy={true}
             smooth={true}
             offset={-60}
           >
-            Services
+            About Me
           </Link>
         </li>
         <li className="semiBold font15 pointer">
@@ -55,12 +55,12 @@ const BoxCard = ({ sidebarOpen, toggleSidebar }) => {
             activeClass="active"
             className="whiteColor"
             style={{ padding: "10px 15px" }}
-            to="projects"
+            to="education"
             spy={true}
             smooth={true}
             offset={-60}
           >
-            Projects
+            Education
           </Link>
         </li>
         <li className="semiBold font15 pointer">
@@ -69,12 +69,12 @@ const BoxCard = ({ sidebarOpen, toggleSidebar }) => {
             activeClass="active"
             className="whiteColor"
             style={{ padding: "10px 15px" }}
-            to="blog"
+            to="exp"
             spy={true}
             smooth={true}
             offset={-60}
           >
-            Blog
+            Exp
           </Link>
         </li>
         <li className="semiBold font15 pointer">
@@ -83,12 +83,12 @@ const BoxCard = ({ sidebarOpen, toggleSidebar }) => {
             activeClass="active"
             className="whiteColor"
             style={{ padding: "10px 15px" }}
-            to="pricing"
+            to="project"
             spy={true}
             smooth={true}
             offset={-60}
           >
-            Pricing
+            Project
           </Link>
         </li>
         <li className="semiBold font15 pointer">
@@ -106,7 +106,7 @@ const BoxCard = ({ sidebarOpen, toggleSidebar }) => {
           </Link>
         </li>
       </UlStyle>
-      <UlStyle className="flexSpaceCenter">
+      {/* <UlStyle className="flexSpaceCenter">
         <li className="semiBold font15 pointer">
           <a href="/" style={{ padding: "10px 30px 10px 0" }} className="whiteColor">
             Log in
@@ -117,7 +117,7 @@ const BoxCard = ({ sidebarOpen, toggleSidebar }) => {
             Get Started
           </a>
         </li>
-      </UlStyle>
+      </UlStyle> */}
     </Wrapper>
   );
 }

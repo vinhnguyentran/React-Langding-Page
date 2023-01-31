@@ -10,7 +10,7 @@ export default function Sidebar({ sidebarOpen, toggleSidebar }) {
     <Wrapper className="animate darkBg" sidebarOpen={sidebarOpen}>
       <SidebarHeader className="flexSpaceCenter">
         <div className="flexNullCenter">
-          <LogoIcon />
+          {/* <LogoIcon /> */}
           <h1 className="whiteColor font20" style={{ marginLeft: "15px" }}>
             Vinh Nguyen
           </h1>

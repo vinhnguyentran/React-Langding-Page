@@ -1,50 +1,66 @@
-import React from "react";
+import React, {useEffect, useState} from "react";
 import styled from "styled-components";
+import * as validate from '../../config/validate'
 // Assets
 import ContactImg1 from "../../assets/img/contact-1.png";
 import ContactImg2 from "../../assets/img/contact-2.png";
-import ContactImg3 from "../../assets/img/contact-3.png";
+import ContactImg3 from "../../assets/img/logo-hdbank.png";
 
 export default function Contact() {
+  const [name, setName] = useState('');
+  const [email, setEmail] = useState('');
+  const [subject, setSubject] = useState('');
+  const [content, setContent] = useState('');
+  const handleSubmit = () => {
+    if(name && email && subject && content){
+      console.log('log check space: ', validate.containsWhitespace(name));
+      if(validate.containsWhitespace(name)|| validate.containsWhitespace(content)){
+        alert('Name or content is null!')
+      }
+    }else{
+      alert('Not enougn infomation!')
+    }
+  }
   return (
     <Wrapper id="contact">
       <div className="lightBg">
         <div className="container">
           <HeaderInfo>
             <h1 className="font40 extraBold">Let's get in touch</h1>
-            <p className="font13">
+            {/* <p className="font13">
               Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
               <br />
               labore et dolore magna aliquyam erat, sed diam voluptua.
-            </p>
+            </p> */}
           </HeaderInfo>
           <div className="row" style={{ paddingBottom: "30px" }}>
             <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6">
               <Form>
-                <label className="font13">First name:</label>
-                <input type="text" id="fname" name="fname" className="font20 extraBold" />
+                <label className="font13">Name:</label>
+                <input type="text" id="fname" name="fname" className="font20 extraBold" onChange={(e) => setName(e.target.value)}/>
                 <label className="font13">Email:</label>
-                <input type="text" id="email" name="email" className="font20 extraBold" />
+                <input type="text" id="email" name="email" className="font20 extraBold"  onChange={(e) => setEmail(e.target.value)}/>
                 <label className="font13">Subject:</label>
-                <input type="text" id="subject" name="subject" className="font20 extraBold" />
-                <textarea rows="4" cols="50" type="text" id="message" name="message" className="font20 extraBold" />
+                <input type="text" id="subject" name="subject" className="font20 extraBold" onChange={(e) => setSubject(e.target.value)}/>
+                <textarea rows="4" cols="50" type="text" id="message" name="message" className="font20 extraBold" 
+                onChange={(e) => setContent(e.target.value)}/>
               </Form>
               <SumbitWrapper className="flex">
-                <ButtonInput type="submit" value="Send Message" className="pointer animate radius8" style={{ maxWidth: "220px" }} />
+                <ButtonInput type="submit" onClick={() => handleSubmit()} value="Send Message" className="pointer animate radius8" style={{ maxWidth: "220px" }} />
               </SumbitWrapper>
             </div>
             <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6 flex">
-              <div style={{ width: "50%" }} className="flexNullCenter flexColumn">
+              {/* <div style={{ width: "50%" }} className="flexNullCenter flexColumn">
                 <ContactImgBox>
                   <img src={ContactImg1} alt="office" className="radius6" />
                 </ContactImgBox>
                 <ContactImgBox>
                   <img src={ContactImg2} alt="office" className="radius6" />
                 </ContactImgBox>
-              </div>
+              </div> */}
               <div style={{ width: "50%" }}>
                 <div style={{ marginTop: "100px" }}>
-                  <img src={ContactImg3} alt="office" className="radius6" />
+                  <img src={ContactImg3} alt="office" className="radius6" style={{width: '100%'}}/>
                 </div>
               </div>
             </div>

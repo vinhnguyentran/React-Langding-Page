@@ -8,7 +8,7 @@ import ExpBox from "../Elements/ExpBox";
 
 export default function Exp() {
   return (
-    <Wrapper id="blog">
+    <Wrapper id="exp">
       <div className="whiteBg">
         <div className="container">
           <HeaderInfo>
